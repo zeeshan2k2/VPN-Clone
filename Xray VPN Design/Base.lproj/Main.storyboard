@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -115,8 +115,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="122"/>
                                 <color key="backgroundColor" red="0.060422010720000002" green="0.18196699020000001" blue="0.32890787719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="122" id="hpd-96-dkM"/>
-                                    <constraint firstAttribute="width" constant="430" id="xUU-tG-zdP"/>
+                                    <constraint firstAttribute="height" constant="122" id="MIT-6F-Ac7"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -124,13 +123,13 @@
                         <color key="backgroundColor" red="0.060422010720000002" green="0.35415893790000003" blue="0.50319892170000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Hnp-Pv-0Ss" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="05P-kc-qxy"/>
-                            <constraint firstItem="4ev-8u-q8v" firstAttribute="top" secondItem="sGn-Cm-EzH" secondAttribute="bottom" constant="87" id="1qp-6k-Y0I"/>
-                            <constraint firstItem="sGn-Cm-EzH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="25p-GN-vaw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uWB-6b-ATl" secondAttribute="trailing" constant="20" id="Bap-BD-iGe"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGn-Cm-EzH" secondAttribute="trailing" id="YbS-f6-yam"/>
+                            <constraint firstItem="4ev-8u-q8v" firstAttribute="top" secondItem="sGn-Cm-EzH" secondAttribute="bottom" constant="87" id="J6h-6d-FzK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="sGn-Cm-EzH" secondAttribute="top" constant="59" id="QvG-mf-r7Q"/>
                             <constraint firstItem="uWB-6b-ATl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="YwV-Zy-AZA"/>
                             <constraint firstItem="Hnp-Pv-0Ss" firstAttribute="top" secondItem="4ev-8u-q8v" secondAttribute="bottom" constant="13" id="cXL-7I-YVO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="sGn-Cm-EzH" secondAttribute="top" constant="59" id="kr9-Z0-afV"/>
+                            <constraint firstItem="sGn-Cm-EzH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eDk-tU-jPg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sGn-Cm-EzH" secondAttribute="trailing" id="eOY-5g-MCA"/>
                             <constraint firstItem="uWB-6b-ATl" firstAttribute="top" secondItem="Hnp-Pv-0Ss" secondAttribute="bottom" constant="37" id="mvB-Yq-b9d"/>
                             <constraint firstItem="4ev-8u-q8v" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pzB-xt-nuO"/>
                         </constraints>
