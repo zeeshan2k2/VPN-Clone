@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var menuBtn: UIButton!
     @IBOutlet weak var memberBtn: UIButton!
@@ -23,12 +23,20 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         controlsBG.layer.cornerRadius = 15
-        // Do any additional setup after loading the view.
+        
+        
+        // to hide navigation bar
+        navigationController?.setNavigationBarHidden(true, animated: false)
     }
-
+    
     
     @IBAction func menuBtnclicked(_ sender: Any) {
         print("menu button clicked")
+        
+        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "menuvc") as! MenuViewController
+        
+        // Replace the current view controller with the next one
+        navigationController?.setViewControllers([nextViewController], animated: false)
     }
     
     @IBAction func memberBtnclicked(_ sender: Any) {
@@ -56,4 +64,3 @@ class ViewController: UIViewController {
     }
     
 }
-
