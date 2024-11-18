@@ -9,8 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var controlsBG: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        controlsBG.layer.cornerRadius = 10
         // Do any additional setup after loading the view.
     }
 
