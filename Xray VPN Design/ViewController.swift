@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         
         // to hide navigation bar
         navigationController?.setNavigationBarHidden(true, animated: false)
+        
     }
     
     
@@ -59,8 +60,9 @@ class ViewController: UIViewController {
         print("fastest location button clicked")
     }
     
+    
     @IBAction func autoModeBtnclicked(_ sender: Any) {
         print("automode button clicked")
     }
-    
+
 }
