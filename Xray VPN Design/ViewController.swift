@@ -6,9 +6,9 @@
 //
 
 import UIKit
+import WebKit
 
 class ViewController: UIViewController {
-    
     
     @IBOutlet weak var menuBtn: UIButton!
     @IBOutlet weak var memberBtn: UIButton!
@@ -18,16 +18,17 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var controlsBG: UIView!
     
+    @IBOutlet weak var testConnectionBGView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         controlsBG.layer.cornerRadius = 15
+        testConnectionBGView.layer.cornerRadius = 10
         
         
         // to hide navigation bar
         navigationController?.setNavigationBarHidden(true, animated: false)
-        
     }
     
     
@@ -64,5 +65,12 @@ class ViewController: UIViewController {
     @IBAction func autoModeBtnclicked(_ sender: Any) {
         print("automode button clicked")
     }
-
+    
+    @IBAction func openWebPage(_ sender: UIButton) {
+        let webViewController = WebViewController()
+        webViewController.modalPresentationStyle = .popover
+        webViewController.urlString = "https://speed.cloudflare.com/"
+        self.present(webViewController, animated: true, completion: nil)
+    }
+    
 }
