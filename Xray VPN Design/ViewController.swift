@@ -35,10 +35,17 @@ class ViewController: UIViewController {
     @IBAction func menuBtnclicked(_ sender: Any) {
         print("menu button clicked")
         
-        let nextViewController = storyboard?.instantiateViewController(withIdentifier: "menuvc") as! MenuViewController
-        
-        // Replace the current view controller with the next one
-        navigationController?.setViewControllers([nextViewController], animated: false)
+        if let nextViewController = storyboard?.instantiateViewController(withIdentifier: "menuvc") as? MenuViewController {
+            // Add custom animation
+            let transition = CATransition()
+            transition.duration = 0.2
+            transition.type = .push
+            transition.subtype = .fromLeft // Slide from left to right
+            view.window?.layer.add(transition, forKey: kCATransition)
+            
+            // Push the view controller without animation since we handle it
+            navigationController?.pushViewController(nextViewController, animated: false)
+        }
     }
     
     @IBAction func memberBtnclicked(_ sender: Any) {
@@ -59,6 +66,11 @@ class ViewController: UIViewController {
     
     @IBAction func fastestLocationBtnclicked(_ sender: Any) {
         print("fastest location button clicked")
+        
+        if let nextViewController = storyboard?.instantiateViewController(withIdentifier: "servervc") as? ServersViewController {
+                // Use pushViewController to slide from right to left
+                navigationController?.pushViewController(nextViewController, animated: true)
+            }
     }
     
     

@@ -31,7 +31,7 @@ class WebViewController: UIViewController {
         // Add the Cancel button inside the header view
         let closeButton = UIButton()
         closeButton.setTitle("Cancel", for: .normal)
-        closeButton.setTitleColor(.systemRed, for: .normal)
+        closeButton.setTitleColor(.darkGray, for: .normal)
         closeButton.translatesAutoresizingMaskIntoConstraints = false
         closeButton.addTarget(self, action: #selector(closeWebView), for: .touchUpInside)
         headerView.addSubview(closeButton)

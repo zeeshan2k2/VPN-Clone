@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		C103A5732CEB905300415C8C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103A5722CEB905300415C8C /* MenuViewController.swift */; };
 		C116A7582CF5F4370077E326 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A7572CF5F4370077E326 /* WebViewController.swift */; };
+		C116A75A2CF5FBC10077E326 /* ServersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A7592CF5FBC10077E326 /* ServersViewController.swift */; };
+		C116A75C2CF61A8D0077E326 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A75B2CF61A8D0077E326 /* MenuTableViewCell.swift */; };
+		C116A75E2CF61F980077E326 /* ServerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A75D2CF61F980077E326 /* ServerTableViewCell.swift */; };
 		C15D80152CEB6C560030B42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D80142CEB6C560030B42E /* AppDelegate.swift */; };
 		C15D80172CEB6C560030B42E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D80162CEB6C560030B42E /* SceneDelegate.swift */; };
 		C15D80192CEB6C560030B42E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D80182CEB6C560030B42E /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* Begin PBXFileReference section */
 		C103A5722CEB905300415C8C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C116A7572CF5F4370077E326 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C116A7592CF5FBC10077E326 /* ServersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersViewController.swift; sourceTree = "<group>"; };
+		C116A75B2CF61A8D0077E326 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C116A75D2CF61F980077E326 /* ServerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTableViewCell.swift; sourceTree = "<group>"; };
 		C15D80112CEB6C560030B42E /* Xray VPN Design.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xray VPN Design.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15D80142CEB6C560030B42E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C15D80162CEB6C560030B42E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +71,9 @@
 				C15D80182CEB6C560030B42E /* ViewController.swift */,
 				C116A7572CF5F4370077E326 /* WebViewController.swift */,
 				C103A5722CEB905300415C8C /* MenuViewController.swift */,
+				C116A75B2CF61A8D0077E326 /* MenuTableViewCell.swift */,
+				C116A7592CF5FBC10077E326 /* ServersViewController.swift */,
+				C116A75D2CF61F980077E326 /* ServerTableViewCell.swift */,
 				C15D801A2CEB6C560030B42E /* Main.storyboard */,
 				C15D801D2CEB6C570030B42E /* Assets.xcassets */,
 				C15D801F2CEB6C570030B42E /* LaunchScreen.storyboard */,
@@ -146,8 +155,11 @@
 			files = (
 				C15D80192CEB6C560030B42E /* ViewController.swift in Sources */,
 				C15D80152CEB6C560030B42E /* AppDelegate.swift in Sources */,
+				C116A75C2CF61A8D0077E326 /* MenuTableViewCell.swift in Sources */,
 				C15D80172CEB6C560030B42E /* SceneDelegate.swift in Sources */,
+				C116A75A2CF5FBC10077E326 /* ServersViewController.swift in Sources */,
 				C116A7582CF5F4370077E326 /* WebViewController.swift in Sources */,
+				C116A75E2CF61F980077E326 /* ServerTableViewCell.swift in Sources */,
 				C103A5732CEB905300415C8C /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
