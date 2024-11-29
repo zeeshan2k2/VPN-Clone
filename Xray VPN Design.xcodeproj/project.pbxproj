@@ -18,6 +18,9 @@
 		C15D801C2CEB6C560030B42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15D801A2CEB6C560030B42E /* Main.storyboard */; };
 		C15D801E2CEB6C570030B42E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C15D801D2CEB6C570030B42E /* Assets.xcassets */; };
 		C15D80212CEB6C570030B42E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15D801F2CEB6C570030B42E /* LaunchScreen.storyboard */; };
+		C1EFC8D82CF87BF6001FC3E4 /* ServerSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EFC8D72CF87BF6001FC3E4 /* ServerSegmentedControl.swift */; };
+		C1EFC8DC2CF8AED9001FC3E4 /* GeneralTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EFC8DB2CF8AED9001FC3E4 /* GeneralTableViewHandler.swift */; };
+		C1EFC8E22CF9A94F001FC3E4 /* SpecialServerTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EFC8E12CF9A94F001FC3E4 /* SpecialServerTableViewHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		C15D801D2CEB6C570030B42E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C15D80202CEB6C570030B42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C15D80222CEB6C570030B42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1EFC8D72CF87BF6001FC3E4 /* ServerSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerSegmentedControl.swift; sourceTree = "<group>"; };
+		C1EFC8DB2CF8AED9001FC3E4 /* GeneralTableViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTableViewHandler.swift; sourceTree = "<group>"; };
+		C1EFC8E12CF9A94F001FC3E4 /* SpecialServerTableViewHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialServerTableViewHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,16 +76,35 @@
 				C15D80162CEB6C560030B42E /* SceneDelegate.swift */,
 				C15D80182CEB6C560030B42E /* ViewController.swift */,
 				C116A7572CF5F4370077E326 /* WebViewController.swift */,
-				C103A5722CEB905300415C8C /* MenuViewController.swift */,
-				C116A75B2CF61A8D0077E326 /* MenuTableViewCell.swift */,
-				C116A7592CF5FBC10077E326 /* ServersViewController.swift */,
-				C116A75D2CF61F980077E326 /* ServerTableViewCell.swift */,
+				C1EFC8D92CF87C06001FC3E4 /* Server View */,
+				C1EFC8DA2CF87C1F001FC3E4 /* Menu View */,
 				C15D801A2CEB6C560030B42E /* Main.storyboard */,
 				C15D801D2CEB6C570030B42E /* Assets.xcassets */,
 				C15D801F2CEB6C570030B42E /* LaunchScreen.storyboard */,
 				C15D80222CEB6C570030B42E /* Info.plist */,
 			);
 			path = "Xray VPN Design";
+			sourceTree = "<group>";
+		};
+		C1EFC8D92CF87C06001FC3E4 /* Server View */ = {
+			isa = PBXGroup;
+			children = (
+				C116A7592CF5FBC10077E326 /* ServersViewController.swift */,
+				C116A75D2CF61F980077E326 /* ServerTableViewCell.swift */,
+				C1EFC8D72CF87BF6001FC3E4 /* ServerSegmentedControl.swift */,
+				C1EFC8DB2CF8AED9001FC3E4 /* GeneralTableViewHandler.swift */,
+				C1EFC8E12CF9A94F001FC3E4 /* SpecialServerTableViewHandler.swift */,
+			);
+			path = "Server View";
+			sourceTree = "<group>";
+		};
+		C1EFC8DA2CF87C1F001FC3E4 /* Menu View */ = {
+			isa = PBXGroup;
+			children = (
+				C103A5722CEB905300415C8C /* MenuViewController.swift */,
+				C116A75B2CF61A8D0077E326 /* MenuTableViewCell.swift */,
+			);
+			path = "Menu View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,10 +182,13 @@
 				C15D80152CEB6C560030B42E /* AppDelegate.swift in Sources */,
 				C116A75C2CF61A8D0077E326 /* MenuTableViewCell.swift in Sources */,
 				C15D80172CEB6C560030B42E /* SceneDelegate.swift in Sources */,
+				C1EFC8E22CF9A94F001FC3E4 /* SpecialServerTableViewHandler.swift in Sources */,
 				C116A75A2CF5FBC10077E326 /* ServersViewController.swift in Sources */,
 				C116A7582CF5F4370077E326 /* WebViewController.swift in Sources */,
 				C116A75E2CF61F980077E326 /* ServerTableViewCell.swift in Sources */,
 				C103A5732CEB905300415C8C /* MenuViewController.swift in Sources */,
+				C1EFC8D82CF87BF6001FC3E4 /* ServerSegmentedControl.swift in Sources */,
+				C1EFC8DC2CF8AED9001FC3E4 /* GeneralTableViewHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

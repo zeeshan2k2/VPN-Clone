@@ -14,4 +14,7 @@ class ServerTableViewCell: UITableViewCell {
     @IBOutlet weak var countryNameLbl: UILabel!
     
     @IBOutlet weak var countryPingLbl: UILabel!
+    
 }
+
+

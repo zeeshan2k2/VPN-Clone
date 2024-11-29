@@ -5,7 +5,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -364,21 +363,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Zva-6x-abc">
-                                <rect key="frame" x="0.0" y="172.66666666666669" width="393" height="679.33333333333326"/>
-                                <color key="backgroundColor" red="0.1607843041" green="0.34901961679999999" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Zva-6x-abc">
+                                <rect key="frame" x="0.0" y="212.66666666666669" width="393" height="639.33333333333326"/>
+                                <color key="backgroundColor" red="0.15294116739999999" green="0.2823529541" blue="0.40392160420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="ServerCell" rowHeight="66" id="0cZ-SE-h4k" customClass="ServerTableViewCell" customModule="Xray_VPN_Design" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="66"/>
+                                        <rect key="frame" x="20" y="55.333332061767578" width="353" height="66"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0cZ-SE-h4k" id="k5p-mh-yyC">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="353" height="66"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Singapore" translatesAutoresizingMaskIntoConstraints="NO" id="UcP-k4-af1">
-                                                    <rect key="frame" x="20" y="7" width="78" height="53"/>
+                                                    <rect key="frame" x="20" y="9.6666666666666643" width="78" height="47"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="53" id="pcy-cR-cgl"/>
+                                                        <constraint firstAttribute="height" constant="47" id="pcy-cR-cgl"/>
                                                         <constraint firstAttribute="width" constant="78" id="tA0-GE-QuP"/>
                                                     </constraints>
                                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="thin"/>
@@ -390,22 +389,23 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="200 ms" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdG-Yl-PLn">
-                                                    <rect key="frame" x="327" y="25" width="46" height="16"/>
+                                                    <rect key="frame" x="287" y="25" width="46" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.15294116739999999" green="0.2823529541" blue="0.40392160420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="backgroundColor" red="0.1607843041" green="0.34901961679999999" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <constraints>
                                                 <constraint firstItem="UcP-k4-af1" firstAttribute="leading" secondItem="k5p-mh-yyC" secondAttribute="leading" constant="20" symbolic="YES" id="6E2-tG-Vas"/>
                                                 <constraint firstItem="wdG-Yl-PLn" firstAttribute="top" secondItem="k5p-mh-yyC" secondAttribute="top" constant="25" id="Mfm-JA-xbc"/>
                                                 <constraint firstItem="NMC-MQ-c7E" firstAttribute="top" secondItem="k5p-mh-yyC" secondAttribute="top" constant="22" id="NSn-8V-hpo"/>
-                                                <constraint firstItem="UcP-k4-af1" firstAttribute="top" secondItem="k5p-mh-yyC" secondAttribute="top" constant="7" id="Ta3-Pd-AKd"/>
                                                 <constraint firstItem="NMC-MQ-c7E" firstAttribute="leading" secondItem="UcP-k4-af1" secondAttribute="trailing" constant="13" id="UyZ-kd-q4N"/>
                                                 <constraint firstAttribute="trailing" secondItem="wdG-Yl-PLn" secondAttribute="trailing" constant="20" id="nji-yD-f3q"/>
+                                                <constraint firstItem="UcP-k4-af1" firstAttribute="centerY" secondItem="k5p-mh-yyC" secondAttribute="centerY" id="x2x-C9-h1e"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.1607843041" green="0.34901961679999999" blue="0.49019610879999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
                                             <outlet property="countryImg" destination="UcP-k4-af1" id="kDk-wJ-UIl"/>
                                             <outlet property="countryNameLbl" destination="NMC-MQ-c7E" id="UaD-NA-Sxv"/>
@@ -438,21 +438,35 @@
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Uyl-D0-z3m">
                                 <rect key="frame" x="21" y="117" width="351" height="34"/>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
-                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.18039217590000001" green="0.2470588088" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Mbr-mt-wNG" customClass="ServerSegmentedControl" customModule="Xray_VPN_Design" customModuleProvider="target">
+                                <rect key="frame" x="21" y="166" width="351" height="32"/>
+                                <segments>
+                                    <segment title="General"/>
+                                    <segment title="Special Server"/>
+                                </segments>
+                                <color key="selectedSegmentTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="serverSegmentBtn:" destination="I2q-Ei-JSJ" eventType="valueChanged" id="kLY-Tz-S47"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gRZ-br-9K7"/>
                         <color key="backgroundColor" red="0.060422010720000002" green="0.18196699020000001" blue="0.32890787719999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="Mbr-mt-wNG" firstAttribute="leading" secondItem="gRZ-br-9K7" secondAttribute="leading" constant="21" id="7DG-X9-X9M"/>
                             <constraint firstItem="Zva-6x-abc" firstAttribute="trailing" secondItem="gRZ-br-9K7" secondAttribute="trailing" id="BFh-x9-YQ8"/>
                             <constraint firstItem="Zva-6x-abc" firstAttribute="leading" secondItem="gRZ-br-9K7" secondAttribute="leading" id="Bzs-7u-drq"/>
                             <constraint firstItem="gRZ-br-9K7" firstAttribute="top" secondItem="Wa7-JO-0ZR" secondAttribute="top" constant="2" id="EUv-xE-B2C"/>
+                            <constraint firstItem="Mbr-mt-wNG" firstAttribute="top" secondItem="Uyl-D0-z3m" secondAttribute="bottom" constant="15" id="NzD-Cz-SkR"/>
+                            <constraint firstItem="gRZ-br-9K7" firstAttribute="trailing" secondItem="Mbr-mt-wNG" secondAttribute="trailing" constant="21" id="UlD-CY-6PC"/>
                             <constraint firstAttribute="bottom" secondItem="Zva-6x-abc" secondAttribute="bottom" id="Ush-GC-1Fh"/>
-                            <constraint firstItem="Zva-6x-abc" firstAttribute="top" secondItem="Uyl-D0-z3m" secondAttribute="bottom" constant="21.670000000000002" id="eSb-N8-w1v"/>
+                            <constraint firstItem="Zva-6x-abc" firstAttribute="top" secondItem="Uyl-D0-z3m" secondAttribute="bottom" constant="61.669998168945312" id="eSb-N8-w1v"/>
                             <constraint firstItem="gRZ-br-9K7" firstAttribute="trailing" secondItem="Uyl-D0-z3m" secondAttribute="trailing" constant="21" id="h8K-L3-mpN"/>
                             <constraint firstItem="Uyl-D0-z3m" firstAttribute="leading" secondItem="gRZ-br-9K7" secondAttribute="leading" constant="21" id="lYT-Aa-y6h"/>
                             <constraint firstItem="Uyl-D0-z3m" firstAttribute="top" secondItem="Wa7-JO-0ZR" secondAttribute="bottom" constant="21.670000000000002" id="p2z-NK-TVK"/>
@@ -462,13 +476,15 @@
                     <navigationItem key="navigationItem" id="eQg-5k-S22"/>
                     <connections>
                         <outlet property="backBtn" destination="Wa7-JO-0ZR" id="olB-f7-dfO"/>
+                        <outlet property="generalTableView" destination="Zva-6x-abc" id="a6H-al-pZI"/>
                         <outlet property="serverSearchTxtFld" destination="Uyl-D0-z3m" id="o4C-d0-rEv"/>
-                        <outlet property="tableView" destination="Zva-6x-abc" id="HA5-oL-Fyi"/>
+                        <outlet property="serverSegmentBtn" destination="Mbr-mt-wNG" id="vXL-OT-i73"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3h-8C-cn0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="I2q-Ei-JSJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2892" y="4"/>
+            <point key="canvasLocation" x="2890.8396946564885" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Aku-N5-LyV">
@@ -500,8 +516,5 @@
         <image name="menu" width="107" height="95"/>
         <image name="network" catalog="system" width="128" height="123"/>
         <image name="support" width="107" height="95"/>
-        <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
     </resources>
 </document>
