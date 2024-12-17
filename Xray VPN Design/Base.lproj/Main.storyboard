@@ -270,7 +270,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1991.3043478260872" y="4.0178571428571423"/>
+            <point key="canvasLocation" x="3843.5114503816794" y="3.5211267605633805"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="1Wq-Tw-LK4">
@@ -444,7 +444,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Mbr-mt-wNG" customClass="ServerSegmentedControl" customModule="Xray_VPN_Design" customModuleProvider="target">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Mbr-mt-wNG">
                                 <rect key="frame" x="21" y="166" width="351" height="32"/>
                                 <segments>
                                     <segment title="General"/>
@@ -484,7 +484,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n3h-8C-cn0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="I2q-Ei-JSJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2890.8396946564885" y="3.5211267605633805"/>
+            <point key="canvasLocation" x="4744.2748091603053" y="3.5211267605633805"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Aku-N5-LyV">
@@ -502,7 +502,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MTj-Vv-zas" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1064.885496183206" y="4.2253521126760569"/>
+            <point key="canvasLocation" x="2918.320610687023" y="4.2253521126760569"/>
         </scene>
     </scenes>
     <resources>

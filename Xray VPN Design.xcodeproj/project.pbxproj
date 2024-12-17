@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		157256B73D19CB4F8642CEAC /* Pods_Xray_VPN_Design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC755D618BF99C0EA3EC77C /* Pods_Xray_VPN_Design.framework */; };
 		C103A5732CEB905300415C8C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103A5722CEB905300415C8C /* MenuViewController.swift */; };
 		C116A7582CF5F4370077E326 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A7572CF5F4370077E326 /* WebViewController.swift */; };
 		C116A75A2CF5FBC10077E326 /* ServersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A7592CF5FBC10077E326 /* ServersViewController.swift */; };
@@ -24,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08E56602EBF76BFD848B18D0 /* Pods-Xray VPN Design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xray VPN Design.release.xcconfig"; path = "Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design.release.xcconfig"; sourceTree = "<group>"; };
+		0DC755D618BF99C0EA3EC77C /* Pods_Xray_VPN_Design.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xray_VPN_Design.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12E48EBCC626637EF1C71075 /* Pods-Xray VPN Design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xray VPN Design.debug.xcconfig"; path = "Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design.debug.xcconfig"; sourceTree = "<group>"; };
 		C103A5722CEB905300415C8C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		C116A7572CF5F4370077E326 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		C116A7592CF5FBC10077E326 /* ServersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServersViewController.swift; sourceTree = "<group>"; };
@@ -47,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				157256B73D19CB4F8642CEAC /* Pods_Xray_VPN_Design.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CD7B6463D41ED6FA7143A3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DC755D618BF99C0EA3EC77C /* Pods_Xray_VPN_Design.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C15D80082CEB6C560030B42E = {
 			isa = PBXGroup;
 			children = (
 				C15D80132CEB6C560030B42E /* Xray VPN Design */,
 				C15D80122CEB6C560030B42E /* Products */,
+				E3C55B3ACD30CC92878EF64B /* Pods */,
+				2CD7B6463D41ED6FA7143A3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +122,16 @@
 			path = "Menu View";
 			sourceTree = "<group>";
 		};
+		E3C55B3ACD30CC92878EF64B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12E48EBCC626637EF1C71075 /* Pods-Xray VPN Design.debug.xcconfig */,
+				08E56602EBF76BFD848B18D0 /* Pods-Xray VPN Design.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -114,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C15D80252CEB6C570030B42E /* Build configuration list for PBXNativeTarget "Xray VPN Design" */;
 			buildPhases = (
+				7D7B31832F63873A604A0F15 /* [CP] Check Pods Manifest.lock */,
 				C15D800D2CEB6C560030B42E /* Sources */,
 				C15D800E2CEB6C560030B42E /* Frameworks */,
 				C15D800F2CEB6C560030B42E /* Resources */,
+				D9C6EA91CB8E5408581FCE9D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +199,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D7B31832F63873A604A0F15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Xray VPN Design-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C6EA91CB8E5408581FCE9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C15D800D2CEB6C560030B42E /* Sources */ = {
@@ -335,6 +404,7 @@
 		};
 		C15D80262CEB6C570030B42E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E48EBCC626637EF1C71075 /* Pods-Xray VPN Design.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -364,6 +434,7 @@
 		};
 		C15D80272CEB6C570030B42E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E56602EBF76BFD848B18D0 /* Pods-Xray VPN Design.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

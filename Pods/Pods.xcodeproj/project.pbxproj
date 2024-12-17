@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0957B7AB00B22CEF9319F3AC971EECCB /* MaterialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96377103497C2CCE4D25345609A1B627 /* MaterialTableViewCell.swift */; };
+		095F006B81F6C0D92840DA0FDDAAD8A4 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F258D1E148C71651254CA1F09ABF4F75 /* MaterialButton.swift */; };
+		2427EE71670B1A842020BC6656A54A4D /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE538067379DD380F577B8C7DBEBEA6A /* MaterialTextField.swift */; };
+		44F0B2767C579CDAAECF24335D3DB62B /* Pods-Xray VPN Design-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67158DCED2D488204C0F79F058FE0443 /* Pods-Xray VPN Design-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		463FF0740D003E3F0392A30037B41FCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		589838C42286D36AC27E60571C35EEFE /* MaterialDesignWidgets-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51A5C6F0D6C3C92EBD1831908E3E5DE8 /* MaterialDesignWidgets-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A4B037BD650B14026C0D5B0FC207309 /* MaterialVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC9C1775CA1167410043A13B1E9638D /* MaterialVerticalButton.swift */; };
+		5D101C98F097658B44CED1F8CEA48341 /* MaterialLoadingIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE5571EEB8EC454BEAE400708FB8B2D /* MaterialLoadingIndicator.swift */; };
+		75F9A917E057C402CEB6C7040591DA09 /* MaterialDesignWidgets-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C52B13CE72CFA0F92EA9673EAE2D23AF /* MaterialDesignWidgets-dummy.m */; };
+		7A084F7C20D72ACB56F3246C88CFC6DB /* RippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A73F5825E16ED9C891FA39A4C44D2EF /* RippleLayer.swift */; };
+		882C51EFC26BD8E04B73DC967E4358FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		A70921BF4E97146B2C452A4BA695634C /* MaterialDesignWidgets.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E8B5A96082F6B621AE711068BCBCFE0 /* MaterialDesignWidgets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A82AA9350673C891D779C9017988D4B5 /* MaterialSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62D4C8BDDC8067F839A74768CBBCFC2 /* MaterialSegmentedControl.swift */; };
+		C50A6B8D6CEE238177CEAE7775F14F3E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3B61D73595590769C4F1036A371AAE /* Extensions.swift */; };
+		D6A7CA03868275F84978E84EF96D5E6A /* Pods-Xray VPN Design-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F54E531D4D6B9DC8AD53BD3E13D5EC61 /* Pods-Xray VPN Design-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		042F0C3E9B8938D3113DE05BDC404AA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8CD3613EE65140A2CD8E9AE9EADB05;
+			remoteInfo = MaterialDesignWidgets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12F25B35EB68C85B9EBF96713497FE8B /* Pods-Xray VPN Design-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Xray VPN Design-acknowledgements.plist"; sourceTree = "<group>"; };
+		20DB69A7336759B15EBF0DAB7376BD44 /* Pods-Xray VPN Design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Xray VPN Design.release.xcconfig"; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38642205923942B0F69729600637F3B1 /* Pods-Xray VPN Design.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Xray VPN Design.modulemap"; sourceTree = "<group>"; };
+		42DADCA889B81638E4E9EF9364418DB4 /* MaterialDesignWidgets-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialDesignWidgets-Info.plist"; sourceTree = "<group>"; };
+		4B3B61D73595590769C4F1036A371AAE /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = MaterialDesignWidgets/MaterialDesignWidgets/Extensions.swift; sourceTree = "<group>"; };
+		4D3C8C6514401289872B134E8D40ACC8 /* Pods-Xray VPN Design.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Xray VPN Design.debug.xcconfig"; sourceTree = "<group>"; };
+		51A5C6F0D6C3C92EBD1831908E3E5DE8 /* MaterialDesignWidgets-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialDesignWidgets-umbrella.h"; sourceTree = "<group>"; };
+		609F092F7BF7664FD682A32A4F5AE7C7 /* MaterialDesignWidgets.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialDesignWidgets.debug.xcconfig; sourceTree = "<group>"; };
+		67158DCED2D488204C0F79F058FE0443 /* Pods-Xray VPN Design-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Xray VPN Design-umbrella.h"; sourceTree = "<group>"; };
+		6A73F5825E16ED9C891FA39A4C44D2EF /* RippleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RippleLayer.swift; path = MaterialDesignWidgets/MaterialDesignWidgets/RippleLayer.swift; sourceTree = "<group>"; };
+		6C550180BA216686A227D14A4222E2BC /* Pods-Xray VPN Design */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Xray VPN Design"; path = Pods_Xray_VPN_Design.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7175819B3DC9E5B327B283768BDF8B59 /* MaterialDesignWidgets-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MaterialDesignWidgets-prefix.pch"; sourceTree = "<group>"; };
+		78ECCAD27DFC07A592B32B176A1AFDE2 /* MaterialDesignWidgets.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialDesignWidgets.modulemap; sourceTree = "<group>"; };
+		7942DCF890D524D32D1BF81ABF4BFAFC /* MaterialDesignWidgets */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialDesignWidgets; path = MaterialDesignWidgets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8B5A96082F6B621AE711068BCBCFE0 /* MaterialDesignWidgets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialDesignWidgets.h; path = MaterialDesignWidgets/MaterialDesignWidgets/MaterialDesignWidgets.h; sourceTree = "<group>"; };
+		96377103497C2CCE4D25345609A1B627 /* MaterialTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTableViewCell.swift; path = MaterialDesignWidgets/MaterialDesignWidgets/MaterialTableViewCell.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2F6F8212C2435E64A51424A4A540F00 /* Pods-Xray VPN Design-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Xray VPN Design-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDC9C1775CA1167410043A13B1E9638D /* MaterialVerticalButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialVerticalButton.swift; path = MaterialDesignWidgets/MaterialDesignWidgets/MaterialVerticalButton.swift; sourceTree = "<group>"; };
+		C52B13CE72CFA0F92EA9673EAE2D23AF /* MaterialDesignWidgets-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialDesignWidgets-dummy.m"; sourceTree = "<group>"; };
+		CAE5571EEB8EC454BEAE400708FB8B2D /* MaterialLoadingIndicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialLoadingIndicator.swift; path = MaterialDesignWidgets/MaterialDesignWidgets/MaterialLoadingIndicator.swift; sourceTree = "<group>"; };
+		D62D4C8BDDC8067F839A74768CBBCFC2 /* MaterialSegmentedControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialSegmentedControl.swift; path = MaterialDesignWidgets/MaterialDesignWidgets/MaterialSegmentedControl.swift; sourceTree = "<group>"; };
+		E4771CC3AB8A1FE440CDA4F6CF36E111 /* Pods-Xray VPN Design-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Xray VPN Design-frameworks.sh"; sourceTree = "<group>"; };
+		EAB7553BFBE08F29244031C39E8832F8 /* Pods-Xray VPN Design-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Xray VPN Design-Info.plist"; sourceTree = "<group>"; };
+		EDE93EA8E91686C4D03C4FC3F297273E /* MaterialDesignWidgets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MaterialDesignWidgets.release.xcconfig; sourceTree = "<group>"; };
+		EE538067379DD380F577B8C7DBEBEA6A /* MaterialTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialTextField.swift; path = MaterialDesignWidgets/MaterialDesignWidgets/MaterialTextField.swift; sourceTree = "<group>"; };
+		F258D1E148C71651254CA1F09ABF4F75 /* MaterialButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MaterialButton.swift; path = MaterialDesignWidgets/MaterialDesignWidgets/MaterialButton.swift; sourceTree = "<group>"; };
+		F54E531D4D6B9DC8AD53BD3E13D5EC61 /* Pods-Xray VPN Design-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Xray VPN Design-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9BFD3970B23CE87DF8DCF01A1C97BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463FF0740D003E3F0392A30037B41FCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD75D85A79158FB1E682D6312057D6F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882C51EFC26BD8E04B73DC967E4358FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		490DF57466C5287DE9989EB2D42BFB00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E12F28A4C49FAA89A9B1ED000945B4F4 /* MaterialDesignWidgets */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51436147F388B8E5565C741FEA236501 /* Pods-Xray VPN Design */ = {
+			isa = PBXGroup;
+			children = (
+				38642205923942B0F69729600637F3B1 /* Pods-Xray VPN Design.modulemap */,
+				B2F6F8212C2435E64A51424A4A540F00 /* Pods-Xray VPN Design-acknowledgements.markdown */,
+				12F25B35EB68C85B9EBF96713497FE8B /* Pods-Xray VPN Design-acknowledgements.plist */,
+				F54E531D4D6B9DC8AD53BD3E13D5EC61 /* Pods-Xray VPN Design-dummy.m */,
+				E4771CC3AB8A1FE440CDA4F6CF36E111 /* Pods-Xray VPN Design-frameworks.sh */,
+				EAB7553BFBE08F29244031C39E8832F8 /* Pods-Xray VPN Design-Info.plist */,
+				67158DCED2D488204C0F79F058FE0443 /* Pods-Xray VPN Design-umbrella.h */,
+				4D3C8C6514401289872B134E8D40ACC8 /* Pods-Xray VPN Design.debug.xcconfig */,
+				20DB69A7336759B15EBF0DAB7376BD44 /* Pods-Xray VPN Design.release.xcconfig */,
+			);
+			name = "Pods-Xray VPN Design";
+			path = "Target Support Files/Pods-Xray VPN Design";
+			sourceTree = "<group>";
+		};
+		96D592112EF49AA7017BF76893F9F2A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51436147F388B8E5565C741FEA236501 /* Pods-Xray VPN Design */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C5DC411EE8A65303492DAE68F17ACF1E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78ECCAD27DFC07A592B32B176A1AFDE2 /* MaterialDesignWidgets.modulemap */,
+				C52B13CE72CFA0F92EA9673EAE2D23AF /* MaterialDesignWidgets-dummy.m */,
+				42DADCA889B81638E4E9EF9364418DB4 /* MaterialDesignWidgets-Info.plist */,
+				7175819B3DC9E5B327B283768BDF8B59 /* MaterialDesignWidgets-prefix.pch */,
+				51A5C6F0D6C3C92EBD1831908E3E5DE8 /* MaterialDesignWidgets-umbrella.h */,
+				609F092F7BF7664FD682A32A4F5AE7C7 /* MaterialDesignWidgets.debug.xcconfig */,
+				EDE93EA8E91686C4D03C4FC3F297273E /* MaterialDesignWidgets.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MaterialDesignWidgets";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				490DF57466C5287DE9989EB2D42BFB00 /* Pods */,
+				F0516D17B6600F88E56751D6E064A2C7 /* Products */,
+				96D592112EF49AA7017BF76893F9F2A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E12F28A4C49FAA89A9B1ED000945B4F4 /* MaterialDesignWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				4B3B61D73595590769C4F1036A371AAE /* Extensions.swift */,
+				F258D1E148C71651254CA1F09ABF4F75 /* MaterialButton.swift */,
+				8E8B5A96082F6B621AE711068BCBCFE0 /* MaterialDesignWidgets.h */,
+				CAE5571EEB8EC454BEAE400708FB8B2D /* MaterialLoadingIndicator.swift */,
+				D62D4C8BDDC8067F839A74768CBBCFC2 /* MaterialSegmentedControl.swift */,
+				96377103497C2CCE4D25345609A1B627 /* MaterialTableViewCell.swift */,
+				EE538067379DD380F577B8C7DBEBEA6A /* MaterialTextField.swift */,
+				BDC9C1775CA1167410043A13B1E9638D /* MaterialVerticalButton.swift */,
+				6A73F5825E16ED9C891FA39A4C44D2EF /* RippleLayer.swift */,
+				C5DC411EE8A65303492DAE68F17ACF1E /* Support Files */,
+			);
+			name = MaterialDesignWidgets;
+			path = MaterialDesignWidgets;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0516D17B6600F88E56751D6E064A2C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7942DCF890D524D32D1BF81ABF4BFAFC /* MaterialDesignWidgets */,
+				6C550180BA216686A227D14A4222E2BC /* Pods-Xray VPN Design */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		418B2CCE21884DB588E19BA08093B896 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F0B2767C579CDAAECF24335D3DB62B /* Pods-Xray VPN Design-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		987DDE23487D8DA4DD9F1F663FA58D20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A70921BF4E97146B2C452A4BA695634C /* MaterialDesignWidgets.h in Headers */,
+				589838C42286D36AC27E60571C35EEFE /* MaterialDesignWidgets-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C8CD3613EE65140A2CD8E9AE9EADB05 /* MaterialDesignWidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FEB667C0F66D8F2819D8CFE538D69CE /* Build configuration list for PBXNativeTarget "MaterialDesignWidgets" */;
+			buildPhases = (
+				987DDE23487D8DA4DD9F1F663FA58D20 /* Headers */,
+				0BD47E25311DFE22AF6CB8D954ADC886 /* Sources */,
+				DD75D85A79158FB1E682D6312057D6F2 /* Frameworks */,
+				0A9288987B8654BDE54DE58EF049DE9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaterialDesignWidgets;
+			productName = MaterialDesignWidgets;
+			productReference = 7942DCF890D524D32D1BF81ABF4BFAFC /* MaterialDesignWidgets */;
+			productType = "com.apple.product-type.framework";
+		};
+		96DBC6ACF8954CAAD1643F8CAF37FEA8 /* Pods-Xray VPN Design */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F51D91549DBE7AAF7D6C3121D2840A /* Build configuration list for PBXNativeTarget "Pods-Xray VPN Design" */;
+			buildPhases = (
+				418B2CCE21884DB588E19BA08093B896 /* Headers */,
+				8DA7E66E5F574EE3BA333893A83D1F14 /* Sources */,
+				D9BFD3970B23CE87DF8DCF01A1C97BA1 /* Frameworks */,
+				135EDD6F2962973D4450FECC8C883954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32E07368CFD91F6940CC254E86DA874 /* PBXTargetDependency */,
+			);
+			name = "Pods-Xray VPN Design";
+			productName = Pods_Xray_VPN_Design;
+			productReference = 6C550180BA216686A227D14A4222E2BC /* Pods-Xray VPN Design */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F0516D17B6600F88E56751D6E064A2C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C8CD3613EE65140A2CD8E9AE9EADB05 /* MaterialDesignWidgets */,
+				96DBC6ACF8954CAAD1643F8CAF37FEA8 /* Pods-Xray VPN Design */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9288987B8654BDE54DE58EF049DE9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135EDD6F2962973D4450FECC8C883954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BD47E25311DFE22AF6CB8D954ADC886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C50A6B8D6CEE238177CEAE7775F14F3E /* Extensions.swift in Sources */,
+				095F006B81F6C0D92840DA0FDDAAD8A4 /* MaterialButton.swift in Sources */,
+				75F9A917E057C402CEB6C7040591DA09 /* MaterialDesignWidgets-dummy.m in Sources */,
+				5D101C98F097658B44CED1F8CEA48341 /* MaterialLoadingIndicator.swift in Sources */,
+				A82AA9350673C891D779C9017988D4B5 /* MaterialSegmentedControl.swift in Sources */,
+				0957B7AB00B22CEF9319F3AC971EECCB /* MaterialTableViewCell.swift in Sources */,
+				2427EE71670B1A842020BC6656A54A4D /* MaterialTextField.swift in Sources */,
+				5A4B037BD650B14026C0D5B0FC207309 /* MaterialVerticalButton.swift in Sources */,
+				7A084F7C20D72ACB56F3246C88CFC6DB /* RippleLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA7E66E5F574EE3BA333893A83D1F14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A7CA03868275F84978E84EF96D5E6A /* Pods-Xray VPN Design-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F32E07368CFD91F6940CC254E86DA874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MaterialDesignWidgets;
+			target = 1C8CD3613EE65140A2CD8E9AE9EADB05 /* MaterialDesignWidgets */;
+			targetProxy = 042F0C3E9B8938D3113DE05BDC404AA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CADFFB4CAEE6DF449F8925BD8385CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE93EA8E91686C4D03C4FC3F297273E /* MaterialDesignWidgets.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialDesignWidgets/MaterialDesignWidgets-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MaterialDesignWidgets/MaterialDesignWidgets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialDesignWidgets/MaterialDesignWidgets.modulemap";
+				PRODUCT_MODULE_NAME = MaterialDesignWidgets;
+				PRODUCT_NAME = MaterialDesignWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52CC76AA747EDE24C0A099D0D73E5327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3C8C6514401289872B134E8D40ACC8 /* Pods-Xray VPN Design.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D36D81168B6B3A550C77581507CD4D81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 609F092F7BF7664FD682A32A4F5AE7C7 /* MaterialDesignWidgets.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MaterialDesignWidgets/MaterialDesignWidgets-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MaterialDesignWidgets/MaterialDesignWidgets-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MaterialDesignWidgets/MaterialDesignWidgets.modulemap";
+				PRODUCT_MODULE_NAME = MaterialDesignWidgets;
+				PRODUCT_NAME = MaterialDesignWidgets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EFC9D403CDFA8DA637261C244DBFB61E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DB69A7336759B15EBF0DAB7376BD44 /* Pods-Xray VPN Design.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FEB667C0F66D8F2819D8CFE538D69CE /* Build configuration list for PBXNativeTarget "MaterialDesignWidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D36D81168B6B3A550C77581507CD4D81 /* Debug */,
+				4CADFFB4CAEE6DF449F8925BD8385CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F51D91549DBE7AAF7D6C3121D2840A /* Build configuration list for PBXNativeTarget "Pods-Xray VPN Design" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CC76AA747EDE24C0A099D0D73E5327 /* Debug */,
+				EFC9D403CDFA8DA637261C244DBFB61E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

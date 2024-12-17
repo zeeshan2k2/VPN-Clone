@@ -14,7 +14,7 @@ class GeneralTableViewHandler: NSObject, UITableViewDelegate, UITableViewDataSou
     let vpnCountryPingLbl: [Int]
     
     // Section Titles
-    let sectionTitles = ["Fastest Location", "Random", "Quality Server"]
+    let sectionTitles = ["Fastest Location", "Quality Server"]
     
     // Initialize with data
     init(countries: [String], pings: [Int]) {
@@ -30,10 +30,8 @@ class GeneralTableViewHandler: NSObject, UITableViewDelegate, UITableViewDataSou
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
             return 1 // First section has 1 row
-        } else if section == 1 {
-            return 1 // Second section has 1 row
         } else {
-            return vpnCountries.count - 2 // Remaining rows in the third section
+            return vpnCountries.count - 1
         }
     }
     
@@ -76,12 +74,8 @@ class GeneralTableViewHandler: NSObject, UITableViewDelegate, UITableViewDataSou
             cell.countryNameLbl.text = vpnCountries[0]
             cell.countryImg.image = UIImage(named: "\(vpnCountries[0])")
             cell.countryPingLbl.text = "\(vpnCountryPingLbl[0]) ms"
-        } else if indexPath.section == 1 {
-            cell.countryNameLbl.text = vpnCountries[1]
-            cell.countryImg.image = UIImage(named: "\(vpnCountries[1])")
-            cell.countryPingLbl.text = "\(vpnCountryPingLbl[1]) ms"
         } else {
-            let adjustedIndex = indexPath.row + 2
+            let adjustedIndex = indexPath.row + 1
             cell.countryNameLbl.text = vpnCountries[adjustedIndex]
             cell.countryImg.image = UIImage(named: "\(vpnCountries[adjustedIndex])")
             cell.countryPingLbl.text = "\(vpnCountryPingLbl[adjustedIndex]) ms"
