@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		157256B73D19CB4F8642CEAC /* Pods_Xray_VPN_Design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC755D618BF99C0EA3EC77C /* Pods_Xray_VPN_Design.framework */; };
 		C103A5732CEB905300415C8C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C103A5722CEB905300415C8C /* MenuViewController.swift */; };
 		C116A7582CF5F4370077E326 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A7572CF5F4370077E326 /* WebViewController.swift */; };
 		C116A75A2CF5FBC10077E326 /* ServersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A7592CF5FBC10077E326 /* ServersViewController.swift */; };
 		C116A75C2CF61A8D0077E326 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A75B2CF61A8D0077E326 /* MenuTableViewCell.swift */; };
 		C116A75E2CF61F980077E326 /* ServerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C116A75D2CF61F980077E326 /* ServerTableViewCell.swift */; };
+		C11AF2492D11FF670004A464 /* Pods_Xray_VPN_Design.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC755D618BF99C0EA3EC77C /* Pods_Xray_VPN_Design.framework */; };
+		C11AF24A2D11FF680004A464 /* Pods_Xray_VPN_Design.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC755D618BF99C0EA3EC77C /* Pods_Xray_VPN_Design.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C15D80152CEB6C560030B42E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D80142CEB6C560030B42E /* AppDelegate.swift */; };
 		C15D80172CEB6C560030B42E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D80162CEB6C560030B42E /* SceneDelegate.swift */; };
 		C15D80192CEB6C560030B42E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15D80182CEB6C560030B42E /* ViewController.swift */; };
@@ -23,6 +24,20 @@
 		C1EFC8DC2CF8AED9001FC3E4 /* GeneralTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EFC8DB2CF8AED9001FC3E4 /* GeneralTableViewHandler.swift */; };
 		C1EFC8E22CF9A94F001FC3E4 /* SpecialServerTableViewHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EFC8E12CF9A94F001FC3E4 /* SpecialServerTableViewHandler.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C11AF24B2D11FF680004A464 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C11AF24A2D11FF680004A464 /* Pods_Xray_VPN_Design.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		08E56602EBF76BFD848B18D0 /* Pods-Xray VPN Design.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xray VPN Design.release.xcconfig"; path = "Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design.release.xcconfig"; sourceTree = "<group>"; };
@@ -51,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				157256B73D19CB4F8642CEAC /* Pods_Xray_VPN_Design.framework in Frameworks */,
+				C11AF2492D11FF670004A464 /* Pods_Xray_VPN_Design.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,7 +143,6 @@
 				12E48EBCC626637EF1C71075 /* Pods-Xray VPN Design.debug.xcconfig */,
 				08E56602EBF76BFD848B18D0 /* Pods-Xray VPN Design.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -143,7 +157,7 @@
 				C15D800D2CEB6C560030B42E /* Sources */,
 				C15D800E2CEB6C560030B42E /* Frameworks */,
 				C15D800F2CEB6C560030B42E /* Resources */,
-				D9C6EA91CB8E5408581FCE9D /* [CP] Embed Pods Frameworks */,
+				C11AF24B2D11FF680004A464 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,23 +235,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D9C6EA91CB8E5408581FCE9D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xray VPN Design/Pods-Xray VPN Design-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -410,7 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2CTSGD7K5;
+				DEVELOPMENT_TEAM = N7L3GJ6Y8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Xray VPN Design/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -418,7 +415,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,7 +437,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = H2CTSGD7K5;
+				DEVELOPMENT_TEAM = N7L3GJ6Y8X;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Xray VPN Design/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -448,7 +445,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

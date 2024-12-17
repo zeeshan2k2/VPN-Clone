@@ -1,16 +1,3 @@
-PODS:
-  - MaterialDesignWidgets (0.1.1)
-
-DEPENDENCIES:
-  - MaterialDesignWidgets
-
-SPEC REPOS:
-  trunk:
-    - MaterialDesignWidgets
-
-SPEC CHECKSUMS:
-  MaterialDesignWidgets: 6d02d3fbba2fa89f6e773983346ad2187d7ef8ff
-
-PODFILE CHECKSUM: 2397b79ac783db1b757d0de27dbba5a0ce008dce
+PODFILE CHECKSUM: 4d55e956dc608049206f0d49c13eb89167060482
 
 COCOAPODS: 1.16.2
